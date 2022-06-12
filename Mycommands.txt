@@ -14,3 +14,20 @@ http://127.0.0.1:8000/
 
 //admin website
 http://127.0.0.1:8000/admin/
+
+
+// whenever any changes in database structure : models.py
+python3 manage.py migrate
+python3 manage.py make
+
+//deplyoment
+
+python3 manage.py collectstatic
+
+
+//deployed : yay : 
+
+https://romoshashank.herokuapp.com/
+
+
+
