@@ -1,0 +1,8 @@
+create environment
+python3 -m venv .ROMO_env
+
+pip install -r requirements.txt
+setup complete
+
+run project
+python3 manage.py runserver
