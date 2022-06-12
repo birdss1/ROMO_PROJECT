@@ -6,3 +6,11 @@ setup complete
 
 run project
 python3 manage.py runserver
+
+
+//normal website
+http://127.0.0.1:8000/
+
+
+//admin website
+http://127.0.0.1:8000/admin/
