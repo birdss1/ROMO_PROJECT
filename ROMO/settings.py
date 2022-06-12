@@ -15,7 +15,7 @@ SECRET_KEY = 'jy8c-n9y=pf##!2^jae-l_5iafq6q%wfq8gdb6c0r5d52su+9y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*, romoshashank.herokuapp.com']
+ALLOWED_HOSTS = ['*', 'romoshashank.herokuapp.com']
 
 AUTH_USER_MODEL = 'info.User'
 
@@ -131,5 +131,5 @@ REST_FRAMEWORK = {
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-if os.getcwd() == '/app':
-    DEBUG = False
+# if os.getcwd() == '/app':
+#     DEBUG = False
